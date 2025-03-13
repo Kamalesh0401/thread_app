@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/37a6bf8b-0586-4ffa-81a2-fce95979d511)# Scalable Twitter-like Mini Threading App
+# Scalable Twitter-like Mini Threading App
 
 This is a scalable Twitter-like threading application that allows users to post threads, reply in real-time, like threads and replies, and manage notifications. The app is built using modern technologies and designed to handle high traffic with performance optimizations.
 
