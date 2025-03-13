@@ -1,4 +1,4 @@
-# Scalable Twitter-like Mini Threading App
+![image](https://github.com/user-attachments/assets/37a6bf8b-0586-4ffa-81a2-fce95979d511)# Scalable Twitter-like Mini Threading App
 
 This is a scalable Twitter-like threading application that allows users to post threads, reply in real-time, like threads and replies, and manage notifications. The app is built using modern technologies and designed to handle high traffic with performance optimizations.
 
@@ -150,7 +150,7 @@ Develop a scalable Twitter-like threading system where users can:
 6. The frontend should now be running at `http://localhost:3000/` and the backend at `http://localhost:5000/`.
 
 ## Deployment
--Using Netlify am hosting the frontend and link is `http://localhost:3000/`.
+-Using Netlify am hosting the frontend and link is `https://threadzone.netlify.app/`.
 
 ## Testing
 - API testing can be done with Postman.
