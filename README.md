@@ -22,12 +22,11 @@ Develop a scalable Twitter-like threading system where users can:
 - Support pagination and caching for scalability.
 
 ## Tech Stack
-- **Frontend**: React, CSS (using Material-UI or any other component library of choice).
+- **Frontend**: React, CSS.
 - **Backend**: Node.js, Express.
-- **Database**: MySQL with Sequelize ORM.
+- **Database**: MSSQL with Sequelize ORM.
 - **Real-Time Communication**: WebSockets.
 - **Authentication**: JSON Web Tokens (JWT).
-- **Caching & Performance**: Redis for session storage and rate limiting.
 
 ## Features
 
