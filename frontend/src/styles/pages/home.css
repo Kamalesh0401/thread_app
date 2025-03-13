@@ -1,0 +1,89 @@
+  .home-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+  }
+
+  .feed-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+  }
+
+  .feed-header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #2c3e50;
+  }
+
+  .feed-tabs {
+      display: flex;
+      gap: 1rem;
+  }
+
+  .feed-tab {
+      background-color: #fff;
+      color: #3498db;
+      border: 2px solid #3498db;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  }
+
+  .feed-tab.active {
+      background-color: #3498db;
+      color: #fff;
+      border-color: #3498db;
+  }
+
+  .feed-tab:hover {
+      background-color: #ecf0f1;
+  }
+
+  .feed-divider {
+      margin: 2rem 0;
+      border-top: 2px solid #ddd;
+  }
+
+  @media (max-width: 768px) {
+      .feed-header {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+
+      .feed-tabs {
+          flex-wrap: wrap;
+          gap: 0.5rem;
+      }
+
+      .feed-tab {
+          width: 100%;
+          text-align: center;
+      }
+
+      .home-container {
+          padding: 1.5rem;
+      }
+  }
+
+  @media (max-width: 480px) {
+      .feed-header h1 {
+          font-size: 1.5rem;
+      }
+
+      .feed-tabs {
+          gap: 0.3rem;
+      }
+
+      .thread-form input,
+      .thread-form textarea {
+          font-size: 0.9rem;
+      }
+
+      .thread-form button {
+          font-size: 0.9rem;
+      }
+  }
